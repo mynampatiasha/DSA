@@ -2,6 +2,6 @@
 
 # Bubble_Sort
         In bubble sort we compare the neighbour elements. 
-        If the condition like arr[j]>arr[j+1] then we swap them.
+        If the condition like arr[j]>arr[j+1] is false then we swap them.
         In each pass the largest element placed at last
 
