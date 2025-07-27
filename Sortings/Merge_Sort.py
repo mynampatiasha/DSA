@@ -2,7 +2,7 @@ def merge_sort(arr):
     # Base case: if the list has 1 or 0 elements, it's already sorted
     if len(arr) <= 1:
         return arr
-      
+    
     # Step 1: Divide the array into two halves
     mid = len(arr) // 2
     left_half = merge_sort(arr[:mid])
