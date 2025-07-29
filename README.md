@@ -13,13 +13,17 @@
         In insertion sort, we assume the first element is sorted.
         Then we pick the next element and insert it into its correct position in the sorted part.
         It is efficient for small or nearly sorted arrays.
-# Heap_Sort
-        In heap sort we first build a max heap from the array.
-        Then we swap the root (maximum) with the last element and reduce the heap size.
-        We repeat heapifying and extracting until the array is sorted.
 # Merge_Sort
         In merge sort we use the divide and conquer technique.
         We divide the array into two halves, sort them recursively, and merge them.
         It is stable and works well for large datasets.
+# Quick_Sort
+        In quick sort we choose a pivot element.
+        We rearrange the array so that elements smaller than the pivot go to the left, and greater go to the right.
+        We then recursively apply the same process to left and right parts.
+# Heap_Sort
+        In heap sort we first build a max heap from the array.
+        Then we swap the root (maximum) with the last element and reduce the heap size.
+        We repeat heapifying and extracting until the array is sorted.
 
  I update this repo regularly as I keep learning something new every day! 
