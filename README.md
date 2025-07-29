@@ -13,6 +13,11 @@
         In insertion sort, we assume the first element is sorted.
         Then we pick the next element and insert it into its correct position in the sorted part.
         It is efficient for small or nearly sorted arrays.
+# Heap_Sort
+        In heap sort we first build a max heap from the array.
+        Then we swap the root (maximum) with the last element and reduce the heap size.
+        We repeat heapifying and extracting until the array is sorted.
+
 
 
  I update this repo regularly as I keep learning something new every day! 
