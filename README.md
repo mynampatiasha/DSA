@@ -17,7 +17,9 @@
         In heap sort we first build a max heap from the array.
         Then we swap the root (maximum) with the last element and reduce the heap size.
         We repeat heapifying and extracting until the array is sorted.
-
-
+# Merge_Sort
+        In merge sort we use the divide and conquer technique.
+        We divide the array into two halves, sort them recursively, and merge them.
+        It is stable and works well for large datasets.
 
  I update this repo regularly as I keep learning something new every day! 
