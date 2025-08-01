@@ -8,7 +8,7 @@ def max_sum_subarray(nums, k):
 
     # Slide the window over the rest of the array
     for i in range(k, len(nums)):
-        window_sum = window_sum + nums[i] - nums[i - k]  # Slide the window
+        window_sum = window_sum + nums[i] - nums[i - k]  # Slide the window 
         if window_sum > max_sum:
             max_sum = window_sum
 
