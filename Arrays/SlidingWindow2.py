@@ -5,7 +5,7 @@ def max_sum_sub_distinct(nums):
   seen=set()
   for i in range(nums):
     if nums[i] in seen:
-      seen.remove(nums[i])
+      seen.remove(nums[i]) 
       window_sum-=nums[i]
       left+=1
     seen.add(nums[i])
